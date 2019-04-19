@@ -45,7 +45,7 @@ class TabItem {
     // Remove the class "tabs-item-selected" from each element
     items.forEach(item => items.classList.remove("tabs-item-selected"));
     // Add a class named "tabs-item-selected" to this element
-    //this.element;
+    this.element.classList.add("tabs-item-selected");
   }
 }
 
